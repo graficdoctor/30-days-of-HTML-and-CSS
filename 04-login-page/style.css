@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+
+#title {
+	background-image: linear-gradient(to bottom right, #818cf8, #22d3ee);
+	/* background-clip: text; */
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-color: #818cf8;
+	color: transparent;
+}

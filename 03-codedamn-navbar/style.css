@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-color: #fff;
+  color: #a1a1aa;
+  font-size: 0.65rem;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	background-color: #18181b;
+	border-bottom: 5px solid #5e5e5f;
+	width: 100%;
+	padding: 1em;
+}
+
+/* Logo */
+
+.logo-header {
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+  gap: 5px;
+}
+
+.logo-header svg {
+	height: 20px;
+}
+
+.logo-header p {
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	color: #fff;
+	font-size: 0.85rem;
+	letter-spacing: 0.4px;
+}
+
+/* Navigation */
+nav {
+	align-self: center;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+	list-style-type: none;
+	gap: 15px;
+}
+
+a {
+	color: #a1a1aa;
+	text-decoration: none;
+}
+
+/* Buttons */
+.buttons {
+	margin-left: auto;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #18181b;
+  border: none;
+  color: #a1a1aa;
+  font-family: inherit;
+  font-size: 0.65rem;
+}
+
+.cta-btn {
+  margin-left: 10px;
+  background-color: #5046e5;
+  color: #fff;
+  font-weight: 600;
+  padding: 1em 1.50em;
+  border-radius: 8px; 
+}
